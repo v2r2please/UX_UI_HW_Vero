@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inline-block {
+    display:inline-block;
+    vertical-align:top;
+}
+
+header {
+    background-color: #3C7DB2;
+}
+
+.logo {
+    width:23%;
+    padding:1%;
+    text-align: center;
+    display:inline-block;
+}  
+
+.Vero {
+    float:right;
+    padding-left: 15px;
+}
+
+nav {
+    display:inline-block;
+    width: 73%;
+    padding:1%;
+    background-color: #3C7DB2;
+}
+
+ul {
+    width:50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    height: 600px;
+    text-align:center
+}
+
+p.content {
+    width: 500px;
+    margin-right:auto;
+    text-align: left;
+
+}
+
+footer {
+    width:100%;
+    padding: 5px;
+    background-color:#3C7DB2;
+}
