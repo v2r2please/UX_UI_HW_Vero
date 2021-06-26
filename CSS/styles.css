@@ -14,11 +14,9 @@ header {
 }
 
 .logo {
-    width:23%;
-    padding:1%;
-    height:
-    
-
+    padding: 1%;
+    width: auto;
+    height: 150px;
 }  
 
 .Vero {
@@ -28,10 +26,11 @@ header {
 
 nav {
     display:flex;
-    justify-content: end;
-    align-content: stretch;
+    justify-content: space-between;
+    align-content: center;
     width: 73%;
     padding:1%;
+    height:150px;
     background-color: #3C7DB2;
 }
 
