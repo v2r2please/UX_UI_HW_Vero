@@ -8,30 +8,35 @@ body {
 }
 
 header {
+    border-color:#6E278C;
+    border: solid, 1px;
     background-color: #3C7DB2;
     display:flex;
     flex-direction: row;
+    height:fit-content;
+    
 }
 
 .logo {
-    padding: 1%;
-    width: auto;
     height: 150px;
 }  
 
 .Vero {
     float:right;
     padding-left: 15px;
+    padding-right: 20px;
+    width:30%;
 }
 
 nav {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: center;
-    width: 73%;
+    width: 75%;
     padding:1%;
-    height:150px;
+    height:80px;
     background-color: #3C7DB2;
+    color:antiquewhite;
 }
 
 ul {
@@ -40,19 +45,36 @@ ul {
 }
 
 .heroImg {
-    height: 600px;
-    text-align:center;
+    max-height: 600px;
+    text-align:left;
+}
+
+h1{
+    color:#6E278C;
+}
+
+h3{
+    color:#6E278C;
 }
 
 p.content {
     width: 500px;
     margin-right:auto;
-    text-align: left;
+    text-align:left;
+    border-color:#6E278C;
+    border-width: 1px;
 
 }
+
+div .flexContainer {
+    display:flex;
+    max-height: 200px;
+}
+
 
 footer {
     width:100%;
     padding: 5px;
-    background-color:#3C7DB2;
+    background-color:#6E278C;
+    color:antiquewhite
 }
