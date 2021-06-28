@@ -27,8 +27,9 @@ header {
 }  
 
 .Vero {
+   justify-content:right;
     padding:15px;
-    margin:5px;
+    margin: 20px;
     width:30%;
     border-style:solid;
     border-color: tomato;
@@ -56,9 +57,17 @@ ul {
 
 .heroImg {
     max-height: 600px;
-    text-align:left;
+    display: inline;
     border-style:solid;
     border-color: tomato;
+}
+
+.skillImage {
+    max-width:388px;
+    max-height: 545px;
+    min-width: 234px;
+    overflow:inherit;
+
 }
 
 h1{
@@ -69,12 +78,14 @@ h3{
     color:#6E278C;
 }
 
-p.content {
+.content {
     width: 500px;
     margin-right:auto;
     text-align:left;
+    justify-content: left;
     border-style:solid;
     border-color: tomato;
+    
     
 
 }
@@ -88,13 +99,23 @@ button {
 .flexContainer {
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
     column-width: 33%;
     padding: 20px;
     margin: 5px;
     border-style:solid;
     border-color: tomato;
+    position: relative;
+    justify-content: center;
 }
 
+.card {
+    flex:1;
+    max-width:388px;
+    max-height: 545px;
+    min-width: 234px;
+    margin: 10px;
+}
 
 footer {
     width:100%;
