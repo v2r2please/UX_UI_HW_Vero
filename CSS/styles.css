@@ -52,30 +52,33 @@ ul {
 }
 
 .heroImg {
-    max-height: 600px;
-    display:flex;   
+    width: 100%;
+    display:flex; 
+    flex-direction: row;
+    align-content: center;
 }
 
 .content {
-    width: 50%;
-    text-align:left;
-    justify-content:right;
-    display:flex;
-    flex-direction: column;
-    padding: 50px;
-    margin-left:5px;
+    width: 40%;
+    text-align:justify;
+    justify-content:left;
+    padding-top:70px;
+    padding-left:70px;
+    padding-bottom: 70px;
+    margin-left:20px;
     margin-top:10px;
-    margin-right:20px;
+    margin-right:5px;
     margin-bottom: 20px;    
 
 }
 
 .veroImg {
-    width: 30%;
+    width: 40%;
     align-items: center;
     display:flex;
     max-height: min-content;
     margin:10px;
+
 }
 .skillImage {
     max-width:388px;
@@ -83,6 +86,17 @@ ul {
     min-width: 234px;
     overflow:inherit;
 
+}
+.myWork {
+    width: 100%;
+    display:flex; 
+    flex-direction: row;
+    align-content: center;
+}
+.work {
+    max-width:388px;
+    max-height: 545px;
+    min-width:234px;
 }
 
 h1{
