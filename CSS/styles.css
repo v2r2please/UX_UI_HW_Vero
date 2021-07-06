@@ -39,7 +39,7 @@ nav {
     display:flex;
     width: 75%;
     height:80px;
-    background-color:#6E278C;
+    background-color:hsl(282, 56%, 35%);
     color:antiquewhite;
     text-align: right;
     margin-bottom: 10px;
@@ -50,6 +50,12 @@ nav {
 ul {
     margin-top: 10%;
     justify-content: space-between;
+}
+
+hr.rounded {
+    border-top: 7px solid;
+    color:#CFE7E9;
+    border-radius: 4px;
 }
 
 .heroImg {
@@ -66,9 +72,8 @@ ul {
     text-align:justify;
     justify-content:left;
     padding-top:70px;
-    padding-left:70px;
     padding-bottom: 70px;
-    margin-left:20px;
+    margin-left:100px;
     margin-top:10px;
     margin-right:5px;
     margin-bottom: 20px;    
@@ -81,8 +86,6 @@ ul {
     display:flex;
     max-height: min-content;
     margin:10px;
-    border-radius: 11px;
-
 }
 .mySkills {
     margin:20px;
@@ -93,6 +96,7 @@ ul {
     min-width: 234px;
     overflow:inherit;
     border-radius: 11px;
+    margin-top: 25px;
 
 }
 .myWork {
@@ -111,12 +115,16 @@ ul {
 
 h1{
     color:#6E278C;
+    margin-left: 100px;
 }
 
 h3{
     color:#6E278C;
+    
 }
-
+h4 {
+    color:#6E278C;
+}
 
 button {
     background-color:#6E278C;
@@ -144,6 +152,10 @@ button {
     max-height: 545px;
     min-width: 234px;
     margin: 10px;
+}
+.workGrid {
+    max-width: 600px;
+    margin-left: 100px;
 }
 
 footer {
