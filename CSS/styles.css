@@ -1,32 +1,35 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 32%, rgba(110,39,140,1) 100%);
+    display:flex;
+    flex-direction: row;    
+    align-items: baseline;
+    padding:5px;
     
 }
 
 .inline-block {
-    display:inline-block;
-    padding-right: 20px;
-    }
-
-header {
-    background-color: #6E278C;
-    display:flex;
-    flex-direction: row;    
-    padding: 20px;
-    align-items: baseline;
-    border-radius: 11px;
+    display:inline-flex;
+    margin-top:auto;
+    background-color: transparent;
     }
 
 .name {
-    height: 48px;
-    padding-right: 48px;
+    margin-left: 0px;
+    padding:8px;
+    margin-right:auto;
+    color:antiquewhite;
 }
 
 .logo {
-    height: 150px;
+    height: 100px;
     display:flex;
+    margin-right:0px;
 
-  
 }  
 
 .Vero {
@@ -38,18 +41,17 @@ header {
 nav {
     display:flex;
     width: 75%;
-    height:80px;
     background-color:hsl(282, 56%, 35%);
     color:antiquewhite;
-    text-align: right;
-    margin-bottom: 10px;
-
 
 }
 
 ul {
-    margin-top: 10%;
-    justify-content: space-between;
+    display:inline-flex;
+    justify-content: space-evenly;
+}
+li{
+    padding:8px;
 }
 
 hr.rounded {
@@ -65,6 +67,7 @@ hr.rounded {
     align-content: center;
     margin: left 10px;
     margin: right 10px;
+    background-color:black;
 }
 
 .content {
@@ -76,7 +79,8 @@ hr.rounded {
     margin-left:100px;
     margin-top:10px;
     margin-right:5px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    color:antiquewhite;    
 
 }
 
@@ -104,8 +108,8 @@ hr.rounded {
     display:flex; 
     flex-direction:column;
     align-content: center;
-    margin:30px;
-   
+    margin:auto;
+    background-color:#6E278C;
 }
 .work {
     max-width:388px;
@@ -115,7 +119,7 @@ hr.rounded {
 
 h1{
     color:#6E278C;
-    margin-left: 100px;
+    margin-left: auto;
 }
 
 h3{
@@ -131,8 +135,15 @@ button {
     color: antiquewhite;
     width: 200px;
     border-radius: 11px;
-    margin:20px;
+    margin:auto;
     padding:5px;
+    transition: 0.3s;
+}
+
+button:active{
+    background-color:antiquewhite;
+    color:#6E278C;
+    
 }
 
 .flexContainer {
@@ -140,37 +151,37 @@ button {
     flex-direction:row;
     flex-wrap: wrap;
     column-width: 33%;
-    padding: 20px;
+    padding: 8px;
     margin: 5px;
     position: relative;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .card {
     flex:1;
-    max-width:388px;
-    max-height: 545px;
+    max-width:450px;
+    max-height: 900px;
     min-width: 234px;
     margin: 10px;
+    padding:20px;
+    
 }
 .workGrid {
-    max-width: 600px;
-    margin-left: 100px;
-}
+    max-width: 800px;
+    padding:20px;
+    margin: auto;
+    background-color:white;
 
+}
 footer {
     width:100%;
-    height: 50px;
-    background-color:#6E278C;
-    color:antiquewhite;
+    height:50px;
+    background-color: #6E278C;
+    color: antiquewhite;
     padding-right: 10px;
     margin-top: 20px;
-    border-radius: 11px;
-
-   
-    
-
 }
+
 .footerMenu {
     align-content: center;
     padding-top: 10px;

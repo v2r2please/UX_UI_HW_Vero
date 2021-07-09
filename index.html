@@ -4,11 +4,33 @@
 <head>
     <title> Vero V Reeves</title>
     <link rel="stylesheet" href= "CSS/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 </head>
 
-
 <body>
-
+   
+    
+    
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-black"> 
+            <span onclick="document.getElementById('id01').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+            <h2>Modal Header</h2>
+          </header>
+          <div class="w3-container">
+            <p>Some text..</p>
+            <p>Some text..</p>
+          </div>
+          <footer class="w3-container w3-black">
+            <p>Modal Footer</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+     
+    
 <header class="navigation"> 
 
     <div class="inline-block logo">
@@ -16,14 +38,16 @@
     </div>
 
     <nav class="inline-block">
+       <h1 class="name"><strong>Vero V Reeves</strong></h1>
+
         <ul>
-            <img src="images/VeroVRReeves.png" alt= "Vero V R Reeves" class="inline-block name">
             <li class="inline-block"> <strong>About</strong></li>
             <li class="inline-block"> <strong>Skills</strong></li>
             <li class="inline-block"> <strong>Work</strong></li>
-            <li class="inline-block"> <strong>Contact</strong></li>
+            <li onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black inline-block"> <strong>Contact</strong></li>
         </ul>
     </nav>
+   
 
 </header>
 
@@ -45,17 +69,18 @@
 
     </div>
     <div class="veroImg">
-        <img src= "images/Vero.png" class="Vero" alt= "Hi I am Vero">
+        <img src="images/taygete.jpg" class="Vero" alt= "Hi I am Vero">
     </div>
     
 </section>
 <hr class="rounded">
 
 <section class="mySkills"> 
-
     <h1> My UX Skills</h1>
 
+
     <div class= "flexContainer"> 
+
         <div class="card">
             <div class="skillImage"><img src="images/uxresearch.png" alt= "user research">
             </div>
@@ -96,9 +121,8 @@
 </section>
 
     <section class="myWork">
-        <div class= "myWorkTitle"><h1>My Work</h1></div>
-        
         <div class="workGrid">
+            <div class= "myWorkTitle"><h1>My Work</h1></div>
 
             <div class="skillImage"><img src="images/Home (2).png" alt="FTC website redesign" style= "width:300px;"
                 ></img>
@@ -111,8 +135,8 @@
                 wireframes, low and high fidelity prototypes while maintaining a sense of the original branding tone.
                 </p>
                 <button>View Case Study</button>
-                <hr class="rounded">
             </div>
+            <hr class="rounded">
 
             <div class="skillImage"> <img src="images/Frame (1).png" alt="Play It Forward redesign" style= "width:300px;"></img>
             </div>
@@ -124,9 +148,9 @@
                     wireframe creation, and presentation.
                 </p>
                 <button>View Case Study</button>
-                <hr class="rounded">
             </div>
-                
+            <hr class="rounded">
+
             <div class="skillImage"> <img src="images/fuzzyconnect.jpg" alt="Fuzzy Connect Mobile App Design" style= "width:300px;"></img>
             </div>
 
@@ -147,8 +171,8 @@
                 <br> The purpose of this app is to support travelers in a post-Covid 19 world.
             </p>
                 <button>View Case Study</button>
-                <hr class="rounded">
             </div>
+            <hr class="rounded">
 
             <button>View All Projects</button>
         </div>
